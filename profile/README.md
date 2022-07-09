@@ -8,3 +8,10 @@
 - 严禁写公有类变量
 - 统一命名空间
 - 除框架需要，请不要使用MonoBehaviour和MonoSingleton
+
+# [git repo](https://gerrit.googlesource.com/git-repo/)
+```shell
+repo init --no-clone-bundle -u https://github.com/SuperCLine-ActionEditor/ActionEditor.Manifest.git
+repo sync
+repo forall -c git checkout master
+```
